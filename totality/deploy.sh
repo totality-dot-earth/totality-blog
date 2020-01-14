@@ -1,10 +1,8 @@
 #!/bin/bash
 hugo -D
 export IPFS_DEPLOY_PINATA__API_KEY=38581eeb587581f76928
-export IPFS_DEPLOY_PINATA__SECRET_API_KEY=3dc911c8ee98cb93a64e47d42b02da129acd68bc4e4b82816f51a39de9830128
-# export IPFS_DEPLOY_CLOUDFLARE__API_TOKEN=uu-S1wm88sbvlcDI2wOHY-jrMBU0ZyjYec9mF1In
 export IPFS_DEPLOY_CLOUDFLARE__API_EMAIL=beau.cronin@gmail.com
-export IPFS_DEPLOY_CLOUDFLARE__API_KEY=2ad78d454ff8871807fe1b4d50fb99201ea89
 export IPFS_DEPLOY_CLOUDFLARE__ZONE=teetotality.blog
 export IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.teetotality.blog
+source secrets.sh
 ipd -p pinata -d cloudflare -O
