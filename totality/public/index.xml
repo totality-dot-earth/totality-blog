@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teetotality</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Teetotality</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jan 2020 09:35:36 -0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World. All Of It.</title>
+      <link>http://example.org/posts/hello-world/</link>
+      <pubDate>Tue, 14 Jan 2020 09:35:36 -0800</pubDate>
+      
+      <guid>http://example.org/posts/hello-world/</guid>
+      <description>This is the beginning of something all-encompassing.</description>
+    </item>
+    
+  </channel>
+</rss>
