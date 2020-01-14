@@ -1,0 +1,9 @@
+baseURL = "https://example.com/"
+title = "Binario"
+languageCode = "en-us"
+paginate = 10
+theme = "binario"
+
+[Params]
+  description = "Responsive card-based & code-light Hugo theme"
+  columns = 2

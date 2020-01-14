@@ -1,0 +1,72 @@
+{
+  "name": "binario",
+  "version": "1.0.0",
+  "description": "Responsive card-based & code-light Hugo theme",
+  "license": "MIT",
+  "browserslist": [
+    "> 0.25%",
+    "last 2 version",
+    "not dead",
+    "IE 11",
+    "iOS >= 9"
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "cascade": false
+      }
+    }
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "browser": true
+    },
+    "rules": {
+      "indent": [
+        2,
+        "tab"
+      ],
+      "comma-dangle": [
+        "error",
+        {
+          "arrays": "always-multiline",
+          "objects": "always-multiline",
+          "imports": "always-multiline",
+          "exports": "always-multiline",
+          "functions": "ignore"
+        }
+      ],
+      "no-tabs": 0
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "postcss-cli": "^6.1.3",
+    "stylelint": "^12.0.1",
+    "stylelint-order": "^4.0.0"
+  },
+  "scripts": {
+    "lint:prefixes": "postcss static/css/*.css assets/css/*.css",
+    "lint:css": "stylelint static/css/*.css assets/css/*.css",
+    "lint:js": "eslint static/js/*.js",
+    "lint": "npm run lint:css && npm run lint:js",
+    "fix:prefixes": "postcss -r static/css/*.css assets/css/*.css",
+    "fix:css": "stylelint static/css/*.css assets/css/*.css --fix",
+    "fix:js": "eslint static/js/*.js --fix",
+    "fix": "npm run fix:prefixes && npm run fix:css && npm run fix:js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vimux/Binario.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vimux/Binario/issues"
+  },
+  "homepage": "https://github.com/Vimux/Binario"
+}
