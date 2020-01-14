@@ -2,3 +2,9 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Teetotality"
 theme = "binario"
+relativeURLs = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
