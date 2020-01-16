@@ -2,21 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Teetotality</title>
-    <link>http://example.org/tags/</link>
+    <link>https://teetotality.blog/tags/</link>
     <description>Recent content in Tags on Teetotality</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jan 2020 09:51:09 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 11:26:18 -0800</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://teetotality.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>perception</title>
+      <link>https://teetotality.blog/tags/perception/</link>
+      <pubDate>Wed, 15 Jan 2020 11:26:18 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/tags/perception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>energy</title>
+      <link>https://teetotality.blog/tags/energy/</link>
+      <pubDate>Tue, 14 Jan 2020 19:24:40 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/tags/energy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>expertise</title>
+      <link>https://teetotality.blog/tags/expertise/</link>
+      <pubDate>Tue, 14 Jan 2020 19:24:40 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/tags/expertise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jargon</title>
+      <link>https://teetotality.blog/tags/jargon/</link>
+      <pubDate>Tue, 14 Jan 2020 19:24:40 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/tags/jargon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>systems</title>
+      <link>https://teetotality.blog/tags/systems/</link>
+      <pubDate>Tue, 14 Jan 2020 19:24:40 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/tags/systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dweb</title>
+      <link>https://teetotality.blog/tags/dweb/</link>
+      <pubDate>Tue, 14 Jan 2020 16:11:17 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/tags/dweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ipfs</title>
+      <link>https://teetotality.blog/tags/ipfs/</link>
+      <pubDate>Tue, 14 Jan 2020 16:11:17 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/tags/ipfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nerdery</title>
+      <link>https://teetotality.blog/tags/nerdery/</link>
+      <pubDate>Tue, 14 Jan 2020 16:11:17 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/tags/nerdery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>conceptual</title>
-      <link>http://example.org/tags/conceptual/</link>
+      <link>https://teetotality.blog/tags/conceptual/</link>
       <pubDate>Tue, 14 Jan 2020 09:51:09 -0800</pubDate>
       
-      <guid>http://example.org/tags/conceptual/</guid>
+      <guid>https://teetotality.blog/tags/conceptual/</guid>
       <description></description>
     </item>
     

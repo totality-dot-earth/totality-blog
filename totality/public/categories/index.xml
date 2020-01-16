@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Teetotality</title>
-    <link>http://example.org/categories/</link>
+    <link>https://teetotality.blog/categories/</link>
     <description>Recent content in Categories on Teetotality</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jan 2020 09:51:09 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 11:26:18 -0800</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://teetotality.blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Think</title>
-      <link>http://example.org/categories/think/</link>
-      <pubDate>Tue, 14 Jan 2020 09:51:09 -0800</pubDate>
+      <title>think</title>
+      <link>https://teetotality.blog/categories/think/</link>
+      <pubDate>Wed, 15 Jan 2020 11:26:18 -0800</pubDate>
       
-      <guid>http://example.org/categories/think/</guid>
+      <guid>https://teetotality.blog/categories/think/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>build</title>
+      <link>https://teetotality.blog/categories/build/</link>
+      <pubDate>Tue, 14 Jan 2020 16:11:17 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/categories/build/</guid>
       <description></description>
     </item>
     

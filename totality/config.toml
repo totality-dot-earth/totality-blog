@@ -1,10 +1,28 @@
-baseURL = "http://example.org/"
+baseURL = "https://teetotality.blog/"
 languageCode = "en-us"
 title = "Teetotality"
 theme = "binario"
 relativeURLs = true
+enableEmoji = true
 
 [taxonomies]
   category = "categories"
   tag = "tags"
   series = "series"
+
+[Author]
+  name = "Beau Cronin"
+
+[Params]
+  description = ""
+  opengraph = true
+  twitter_cards = true
+  columns = 3
+  mainSections = ["posts", "posits", "big-think"]
+  colorTheme = "dark-green"
+
+[Params.Breadcrumb]
+  enable = true
+
+[Params.Share]
+  twitter = true

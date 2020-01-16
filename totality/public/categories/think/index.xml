@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Think on Teetotality</title>
-    <link>http://example.org/categories/think/</link>
-    <description>Recent content in Think on Teetotality</description>
+    <title>think on Teetotality</title>
+    <link>https://teetotality.blog/categories/think/</link>
+    <description>Recent content in think on Teetotality</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jan 2020 09:51:09 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 11:26:18 -0800</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/think/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://teetotality.blog/categories/think/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Death Is All Around Us</title>
+      <link>https://teetotality.blog/big-think/death-is-all-around-us/</link>
+      <pubDate>Wed, 15 Jan 2020 11:26:18 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/big-think/death-is-all-around-us/</guid>
+      <description>My daughters and I almost died this morning as I drove them to school.</description>
+    </item>
+    
+    <item>
+      <title>Value Stacking</title>
+      <link>https://teetotality.blog/posits/value-stacking/</link>
+      <pubDate>Tue, 14 Jan 2020 19:24:40 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/posits/value-stacking/</guid>
+      <description>One of the themes here is that the over-specialization of elite knowledge is going to get us all killed. Or at least make things harder as we transition to a sustainable civilization.
+Example: the energy systems jargon term &amp;ldquo;value stacking&amp;rdquo;, which means &amp;ldquo;having the capability to perform multiple energy services at the same time&amp;rdquo;. #
+I&#39;m no expert on this stuff - that&#39;s the point! - but this term has turned me off for reasons I have struggled to articulate.</description>
+    </item>
+    
+    <item>
       <title>Think Do Build</title>
-      <link>http://example.org/posts/think-do-build/</link>
+      <link>https://teetotality.blog/posts/think-do-build/</link>
       <pubDate>Tue, 14 Jan 2020 09:51:09 -0800</pubDate>
       
-      <guid>http://example.org/posts/think-do-build/</guid>
+      <guid>https://teetotality.blog/posts/think-do-build/</guid>
       <description>Aristotle, man - dude was smart. How I learned to stop worrying and divide my intellectual life into three pieces.</description>
     </item>
     

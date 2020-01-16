@@ -1,5 +1,5 @@
 #!/bin/bash
-hugo -D
+hugo
 export IPFS_DEPLOY_PINATA__API_KEY=38581eeb587581f76928
 export IPFS_DEPLOY_CLOUDFLARE__API_EMAIL=beau.cronin@gmail.com
 export IPFS_DEPLOY_CLOUDFLARE__ZONE=teetotality.blog

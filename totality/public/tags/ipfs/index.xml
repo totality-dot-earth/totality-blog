@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ipfs on Teetotality</title>
+    <link>https://teetotality.blog/tags/ipfs/</link>
+    <description>Recent content in ipfs on Teetotality</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jan 2020 16:11:17 -0800</lastBuildDate>
+    
+	<atom:link href="https://teetotality.blog/tags/ipfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How This Blog Was Made</title>
+      <link>https://teetotality.blog/posts/how-this-blog-was-made/</link>
+      <pubDate>Tue, 14 Jan 2020 16:11:17 -0800</pubDate>
+      
+      <guid>https://teetotality.blog/posts/how-this-blog-was-made/</guid>
+      <description>You know you want to read this, nerd.</description>
+    </item>
+    
+  </channel>
+</rss>

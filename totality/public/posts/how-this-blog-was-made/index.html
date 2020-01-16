@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b1b1b">
+	<title>How This Blog Was Made | Teetotality</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="stylesheet" href="../../css/bundle.css">
+	<link rel="icon" href="../../icons/16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="../../icons/32.png" sizes="32x32" type="image/png">
+		
+</head>
+<body>
+	<header class="header">
+	<a class="logo" href="../../">Teetotality</a>
+	
+</header>
+	<div class="primary">
+	
+	<main class="main">
+		
+		<div class="single block">
+			<article class="post">
+				<h1 class="post__title">How This Blog Was Made</h1>
+				<div class="post__content"><p>Half of all blog posts are about the tools and platform used to create the blog. Who am I to fight this?</p>
+<p><a href="https://gohugo.io/">Hugo</a> is the static site generator - I'm writing this in markdown in a text editor, and then I run a simple hugo command to create the HTML and CSS for the site. <a href="https://genius.com/Austin-powers-movie-the-early-years-annotated">Pretty standard, really.</a></p>
+<p>After the site is built (for example, after I finish this post), I run a <a href="https://github.com/str8d8a/totality-blog/blob/master/totality/deploy.sh">little script</a> that calls <a href="https://github.com/ipfs-shipyard/ipfs-deploy">ipfs-deploy</a>. This does two important things:</p>
+<ol>
+<li>It adds the new site to <a href="https://ipfs.io/">IPFS</a> and tells my chosen pinning service, <a href="https://pinata.cloud/">Piñata</a>, to make sure that the files are always available. This means that, while my blog's files might end up in any number of places and get served from there (the magic of <a href="https://flyingzumwalt.gitbooks.io/decentralized-web-primer/avenues-for-access/lessons/power-of-content-addressing.html">content addressing</a>), Piñata will make sure that they're always available <em>somewhere</em>.</li>
+<li>It updates a <a href="https://dnslink.io/">dnslink</a> pointer at Cloudflare, which allows Cloudflare's DNS to direct <code>teetotality.blog</code> HTTP traffic to the correct IPFS hash address via <a href="https://blog.cloudflare.com/distributed-web-gateway/">their IPFS Gateway</a>. So even though you've (probably) reached this page through a regular old HTTP link that uses the <code>teetotality.blog</code> host name, there is in fact no server with that name - the content is stored on various IPFS nodes, including but not limited to Cloudflare's edge caches.</li>
+</ol>
+<p>This means that, in addition to the old and busted way of reaching this content, you can also find it on the IPFS network more directly:</p>
+<ul>
+<li>
+<p>You can find a particular hash version through an HTTP gateway. For example, the version that is published <em>now</em> - i.e., before I update with this post - is at <code>/ipfs/QmPrQtC7YB9evZwLVcuApMU46X81zhr56WFG1W67ihQdJG</code>, and you can find it through the <a href="https://ipfs.io/ipfs/QmPrQtC7YB9evZwLVcuApMU46X81zhr56WFG1W67ihQdJG/">IPFS project's gateway</a>, or <a href="https://cloudflare-ipfs.com/ipfs/QmPrQtC7YB9evZwLVcuApMU46X81zhr56WFG1W67ihQdJG/">Cloudflare's</a>, or any other <a href="https://ipfs.github.io/public-gateway-checker/">public gateway</a>.</p>
+</li>
+<li>
+<p>But that hash address will change as soon as I publish this new version - remember, each hash is associated with a particular arrangement of bytes, and those change every time the site is updated in any way. This is the blessing and curse of content addressing. IPFS has a solution for this - its own naming service, <a href="https://docs.ipfs.io/guides/concepts/ipns/">IPNS</a>, which provides stable names that point to successive versions of a given &ldquo;site&rdquo; as its hash changes. You can access this service through an HTTP gateway as well: <a href="https://ipfs.io/ipns/teetotality.blog/">https://ipfs.io/ipns/teetotality.blog/</a>. In this case, this address should always resolve to the most recent version (and this post should be at <a href="https://ipfs.io/ipns/teetotality.blog/posts/how-this-blog-was-made">https://ipfs.io/ipns/teetotality.blog/posts/this-blog</a>, as soon as I hit publish).</p>
+</li>
+<li>
+<p>Still, you might notice that these methods <a href="https://medium.com/pinata/the-ipfs-gateway-problem-64bbe7eb8170">all rely on gateways</a> to bridge between the content-addressing world of IPFS and the host-addressing of HTTP. If you <em>really</em> want to take off the training wheels, you can install IPFS <a href="https://docs.ipfs.io/guides/guides/install/">on your system</a>, in your browser (e.g., <a href="https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch?hl=en">Chrome</a>), or both. Then you'll be able to resolve IPFS hashes and IPNS addresses directly, at which point you'll really be living in the future.</p>
+</li>
+</ul>
+</div>
+				
+				<footer class="post__footer">
+					
+<div class="post__tags">
+			<a class="post__tag btn" href="../../tags/dweb/">dweb</a>
+			<a class="post__tag btn" href="../../tags/ipfs/">ipfs</a>
+			<a class="post__tag btn" href="../../tags/nerdery/">nerdery</a>
+</div>
+					
+				</footer>
+				
+			</article>
+		</div>
+	</main>
+	
+	
+
+
+
+	
+
+	</div>
+	<footer class="footer">
+	<div class="footer__copyright">© 2020 Teetotality. <span class="footer__copyright-credits">Powered by <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/vimux/binario" rel="nofollow noopener" target="_blank">Binario</a> theme.</span></div>
+</footer>
+</body>
+</html>
