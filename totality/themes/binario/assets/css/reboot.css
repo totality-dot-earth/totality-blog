@@ -9,9 +9,10 @@
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.6;
+    /* font-family: "Helvetica Neue"; */
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8;
     color: #ddd;
     background-color: #1b1b1b;
     -webkit-text-size-adjust: 100%;
@@ -67,7 +68,7 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
 }
 
 abbr[title] {
@@ -116,7 +117,7 @@ blockquote {
 
 b,
 strong {
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 small {
@@ -177,8 +178,9 @@ pre code {
 }
 
 code {
-    color: #e44;
+    color: #EE6F55;
     word-wrap: break-word;
+    font-size: 0.9em;
 }
 
 a>code {

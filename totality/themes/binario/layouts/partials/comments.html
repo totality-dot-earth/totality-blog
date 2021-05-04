@@ -1,5 +1,6 @@
-{{ if and (.Site.DisqusShortname) (.Param "comments") (not .Site.IsServer) }}
+{{ if and (.Param "comments") }}
 <section class="comments block">
-	{{ template "_internal/disqus.html" . }}
+    <div id="commento"></div>
+    <script src="https://cdn.commento.io/js/commento.js"></script>
 </section>
 {{ end }}

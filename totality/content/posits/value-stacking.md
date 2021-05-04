@@ -1,5 +1,5 @@
 ---
-title: "Value Stacking"
+title: "Why I Hate \"Value Stacking\" And Other Jargon"
 date: 2020-01-14T19:24:40-08:00
 draft: false
 categories:
@@ -9,6 +9,9 @@ tags:
 - systems
 - jargon
 - expertise
+summary: "Over-specialization of elite knowledge is going to get us all killed. Example: the energy systems jargon term \"value stacking\"."
+publish:
+- twitter
 ---
 
 One of the themes here is that the over-specialization of elite knowledge is going to get us all killed. Or at least make things harder as we transition to a sustainable civilization.

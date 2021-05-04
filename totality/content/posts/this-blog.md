@@ -10,6 +10,7 @@ tags:
 - dweb
 - ipfs
 - nerdery
+comments: true
 ---
 
 Half of all blog posts are about the tools and platform used to create the blog. Who am I to fight this?

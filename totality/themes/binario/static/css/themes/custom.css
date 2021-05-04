@@ -1,0 +1,28 @@
+a {
+    color: #239F99;
+}
+
+blockquote {
+    border-color: #239F99;
+}
+
+mark {
+    background-color: #EE6F55;
+}
+
+.logo:hover {
+    color: #239F99;
+}
+
+.main-nav__btn {
+    fill: #239F99;
+}
+
+.toc {
+    color: #EE6F55;
+}
+
+.share__icon {
+    fill: #239F99;
+    stroke: #239F99;
+}

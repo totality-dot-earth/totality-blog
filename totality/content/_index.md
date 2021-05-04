@@ -1,4 +1,4 @@
 ---
 
 ---
-[Big Think Pieces]({{< ref big-think >}}) | [Posits]({{< ref posits >}}) 
+[Big Think Pieces]({{< ref big-think >}}) | [Posits]({{< ref posits >}}) | [About]({{< ref about >}})
