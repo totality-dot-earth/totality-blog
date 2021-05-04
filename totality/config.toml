@@ -19,7 +19,7 @@ enableEmoji = true
   twitter_cards = true
   columns = 3
   mainSections = ["posts", "posits", "big-think"]
-  colorTheme = "dark-green"
+  colorTheme = "custom"
 
 [Params.Breadcrumb]
   enable = true
